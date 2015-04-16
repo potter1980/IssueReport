@@ -1,0 +1,65 @@
+body, html{
+	height: 100%;
+	width:100%;
+}
+
+#bakgrundsbild{
+	background-image: url("http://vb.uppsala.se/PageFiles/4281/kartbild_redigerad-1.jpg");
+	width: 100%;
+	height: 100%
+}
+
+#bakgrund{
+	float: left;
+	background-color:transparent;
+	width: 40%;
+	height: 100%
+}
+
+ul > li {
+	overflow: scroll;
+	width:40%;
+	height: 100%;
+	background-color: rgba(255,255,255,0.4);
+    position: relative;
+    list-style-type: none;
+    border-radius: 0%;
+
+    border-style: solid;
+    border-collapse: collapse;
+    border-color: transparent;
+    font-family: arial;
+    color: gray;
+
+
+}
+
+
+#Rubrik:hover{
+	background-color: red;
+}
+ul:hover{
+
+}
+
+/*Det här är de undre texterna*/
+ul ul {
+    position: relative;
+    top: ;
+    left: 0;
+    display: none;
+    padding-left: 0%;
+    width: 100%;
+    
+   
+
+}
+/*Det är här underlistorna syns*/
+ul > li:hover ul {
+    display: block;
+
+
+
+}
+
+
