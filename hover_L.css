@@ -1,40 +1,148 @@
-body, html{
-	height: 100%;
-	width:100%;
+
+#header-container{
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #1f548e;
+    /*border: 1px solid green;*/
 }
 
-#bakgrundsbild{
+#top{
+    width: 75%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    /*border: 1px solid yellow;*/
+}
+
+#kommunLogga{
+    max-height: 100%;
+    float: left;
+    /*border: 1px solid yellow;*/
+}
+
+#topMenu{
+    width: 50%;
+    height: 100%;
+    float: left;
+
+}
+
+#topMenu div{
+    position: relative;
+    width: 20%;
+    height: 90%;
+    margin-left:4%;
+    float: left;
+}
+
+.rubriker{
+    position: absolute;
+    bottom: 5%;
+    font-size: 20px;
+    font-family: Arial;
+    height:20%;
+    color:#ffffff;
+    text-decoration: none;
+}
+
+.searchbar{
+    float: right;
+}
+
+#border-container{
+    position: absolute;
+    top: 10%;
+    left: 0px;
+    height: 2%;
+    width: 100%;
+}
+.gulkant{
+    top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    height:100%;
+    width: 75%;
+    background-color:#FFCC00;
+}
+.bakgrundsbild{
+	position: absolute;
+	left: 0px;
 	background-image: url("http://vb.uppsala.se/PageFiles/4281/kartbild_redigerad-1.jpg");
 	width: 100%;
-	height: 100%
+	height: 88%;
+	top:12%;
 }
 
-#bakgrund{
+.bakgrund{
 	float: left;
-	background-color:transparent;
-	padding-left: 0;
-	width: 40%;
+	background-color: rgba(255,255,255,0.4);
+	margin-left: 0;
+	width: 21%;
 	height: 100%
 }
+.widgetsMain{
+    float: right;
+    margin-right: 0;
+    background-color: red;
+    width:21%;
+    height:100%;
+    display: none;
+  
+    
+}
+/*Alternetives*/
+.bakgrund p {
+	
+	font-weight: bold;
+    font-size: 18pt;
+    background-color: rgba(255,255,255,0.7);
+    color: gray;
+    text-align: center;
+    font-family: arial;
+}
 
-ul > li {
-
-	width:40%;
-	height: 100%;
+p, ul {
+    padding: 0;
+    margin: 0;
+}
+.Rubrik{
+	 background-color: rgba(255,255,255,0.3);
+	
+}
+ul  {
+	list-style-type: none; 
+	margin: 0;
+	padding: 0;
 	background-color: rgba(255,255,255,0.3);
-    position: relative;
-    list-style-type: none;
+	height: 100%;
+
     border-radius: 0%;
     border-style: solid;
     border-collapse: collapse;
     border-color: transparent;
-    font-family: arial;
-    color: gray;
+    
+    
+}
+ul li {
+	padding-left: 2%;
+	padding-top: 6%;
+	padding-bottom: 6%;
+	position: relative;
+	font-family: arial;
+    color:gray;
+    font-size:14pt;
 
 
 }
-
-
+#UnderRubrik{
+	margin: 0;
+	position: relative;
+	display: none;
+}
 .Rubrik:hover li:first-child{
 	background-color: transparent;
 	
@@ -42,6 +150,9 @@ ul > li {
 .Rubrik:hover li:nth-child(2n){
 	background-color: transparent;
 	
+}
+.Rubrik:hover{
+	 background-color: rgba(255,255,255,0.4);
 }
 
 
@@ -56,14 +167,7 @@ ul ul {
     width: 100%;*/
 }
 
-#UnderRubrik{
-	position: relative;
-    top: ;
-    left: 0;
-	display: none;
-   	padding-left: 0%;
-    width: 100%;
-}
+
 
 /*Det är här underlistorna syns*/
 ul > li:hover #UnderRubrik {
@@ -73,8 +177,10 @@ ul > li:hover #UnderRubrik {
 
 
 #UnderRubrik:hover{
-	background-color: rgba(255,255,255,0.9);
+	background-color: rgba(255,255,255,1);
 
 }
+
+
 
 

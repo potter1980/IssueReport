@@ -4,34 +4,67 @@
 
 		<head>
 			<meta charset="utf-8">
-			<link type="text/css" rel="stylesheet" href="hover.css">
+			<link type="text/css" rel="stylesheet" href="hover_L.css">
+			<script src="jquery-1.11.2.min.js"></script>
+   			<script src="Hover.js"></script>
 			<title>Hover</title>
 
 		</head>
 		<body>
-			<div id="bakgrundsbild">
-				<div id="bakgrund">
-					<ul><li>Alternativ</li></ul>
+			<div id="header-container">
+				<header id="top">
+
+					<img id="kommunLogga" src="https://www.uppsala.se/Content/Images/logo_neg.png" alt="Uppsala kommuns logotyp">
+
+					<div id="topMenu" role="navigation">
+						<div><a class="rubriker" href="IssueReport_L.html">Map</a></div>
+						<div><a class="rubriker" href="IssueReport_L.html">Issues</a></div>
+						<div><a class="rubriker" href="IssueReport_L.html">Contact</a></div>
+						<div><a class="rubriker" href="IssueReport_L.html">Language</a></div>
+					</div>
+
+					<form class="searchbar">
+						<input type="text" class="searchbar knapp" value="Seach on Uppsala.se"/>
+					</form>
+
+				</header>
+			</div>
+
+			<div id="border-container">
+				<div class="gulkant">
+				</div>
+			</div>
+			<div class="bakgrundsbild">
+				<div class="bakgrund">
+					<p>Alternatives</p>
 					<ul> 
 						<li class="Rubrik">Cykel  &#9662
 							<ul> 
 								<li id="UnderRubrik">Pump</li>
 								<li id="UnderRubrik">Varkstad</li>
 							</ul></li>
-					
-						<li class="Rubrik"> Park  &#9662
-							<ul> 
-								<li id="UnderRubrik">Gront</li>
-								<li id="UnderRubrik">Bank</li>
-							</ul></li>
-							<li class="Rubrik">Sociala  &#9662
+
+							<li class="Rubrik"> Park  &#9662
 								<ul> 
-									<li id="UnderRubrik">Twitter</li>
-									<li id="UnderRubrik">Facebook</li>
+									<li id="UnderRubrik">Gront</li>
+									<li id="UnderRubrik">Bank</li>
 								</ul></li>
-							
-						</ul>
-					</div>
-				</div>
-			</body>
-			</html>
+								<li class="Rubrik">Sociala  &#9662
+									<ul> 
+										<li id="UnderRubrik">Twitter</li>
+										<li id="UnderRubrik">Facebook</li>
+									</ul></li>
+
+								</ul>
+							</div>
+							<div class="widgetsMain">
+								<div class="widget" id="bikeInfo">
+								</div>
+								<div class="widget" id="socialMedia">
+								</div>
+								<div class="widget" id="issueReporting">
+								</div>
+							</div>
+						</div>
+					</body>
+					</html>
